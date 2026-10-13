@@ -26,7 +26,7 @@ export default function CertificatesPage() {
         ]}
         eyebrow="About Us"
         title="Certificates"
-        description="Company certificates and documentation."
+        description="Company certificates and supporting documents."
       />
 
       <section className="section-padding bg-white">
@@ -38,9 +38,7 @@ export default function CertificatesPage() {
                 Documentation on request
               </h2>
               <p className="mt-4 max-w-2xl leading-relaxed text-navy-600">
-                Company certificates and supporting documents are made available on
-                request. Write to us or call, and we will share the paperwork relevant to
-                your requirement.
+                Company certificates and supporting documents are available on request. Contact us by email or phone to request the documents relevant to your needs.
               </p>
 
               <div className="mt-9 flex flex-col gap-6 border-t border-navy-100 pt-8 sm:flex-row sm:items-center">
