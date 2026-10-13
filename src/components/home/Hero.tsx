@@ -30,7 +30,7 @@ export function Hero() {
         <div className="max-w-2xl pb-12 md:pb-16">
           <p className="eyebrow rise mb-5 text-aqua-300" style={delay(100)}>
             <span aria-hidden="true" className="h-px w-7 bg-current opacity-60" />
-            Water Resource Technology
+            UNISYS ENVIRO TECH PVT. LTD.
           </p>
           <h1
             className="font-display rise text-[2.25rem] font-normal leading-[1.06] tracking-[-0.02em] sm:text-[3rem] lg:text-[3.75rem]"
@@ -42,7 +42,7 @@ export function Hero() {
             className="rise mt-6 max-w-xl leading-relaxed text-navy-200 sm:text-lg"
             style={delay(320)}
           >
-            UNISYS ENVIRO TECH provides water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis. Services are selected according to water quality, intended use, and site requirements.
+            UNISYS ENVIRO TECH PVT. LTD. provides water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis. Services are selected according to water quality, intended use, and site requirements.
           </p>
           <div className="rise mt-9 flex flex-wrap gap-3" style={delay(440)}>
             <Button href="/contact" variant="secondary" size="lg" arrow>
