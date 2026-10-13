@@ -9,8 +9,8 @@ interface CTASectionProps {
 }
 
 export function CTASection({
-  title = "Discuss a water treatment requirement",
-  description = "Speak with us about water treatment, sewage treatment, reverse osmosis or analysis for your project.",
+  title = "Discuss your project requirements",
+  description = "Contact us about water treatment, sewage treatment, reverse osmosis, or water and wastewater analysis.",
 }: CTASectionProps) {
   return (
     <section className="relative overflow-hidden bg-navy-950 text-white">
