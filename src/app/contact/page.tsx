@@ -8,7 +8,7 @@ import { ContactForm } from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact UNISYS ENVIRO TECH PVT. LTD. — M. Chandra Pari, Director. Phone 98843 13191, 044 - 295 35483. Chennai, Tamil Nadu.",
+    "Contact UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu. Phone: 98843 13191 or 044 - 295 35483.",
   alternates: { canonical: "/contact" },
 };
 
@@ -26,7 +26,7 @@ export default function ContactPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
         eyebrow="Contact"
         title="Contact Us"
-        description="Reach us about water treatment, sewage treatment, reverse osmosis or analysis requirements."
+        description="Contact us to discuss water treatment, sewage treatment, reverse osmosis, or water and wastewater analysis."
       />
 
       <section className="section-padding bg-white">
@@ -121,7 +121,7 @@ export default function ContactPage() {
                   Send a message
                 </h2>
                 <p className="mb-8 mt-2 text-sm leading-relaxed text-navy-600">
-                  Sending opens your email app with the message ready to go to {contact.email}.
+                  Selecting Send message opens your email application with a draft addressed to {contact.email}. Review and send the email there.
                 </p>
                 <ContactForm />
               </div>
