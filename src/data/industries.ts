@@ -35,10 +35,4 @@ export const industries: IndustryCategory[] = [
     description:
       "Hotels need reliable water quality for daily operations and wastewater treatment suited to the building and site.",
   },
-  {
-    id: "analysis",
-    title: "Analysis & System Review",
-    description:
-      "Water and wastewater testing helps plan new systems and assess treatment plants already in operation.",
-  },
 ];
