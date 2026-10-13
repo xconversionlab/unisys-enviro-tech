@@ -21,7 +21,7 @@ export const services: Service[] = [
     title: "Water Treatment System",
     shortTitle: "Water Treatment",
     summary:
-      "Water treatment systems for process, utility, and drinking-water requirements.",
+      "Water treatment systems for industrial processes, building utilities, and drinking-water supply.",
     description:
       "Water treatment systems are selected based on the source water and its intended use. Depending on test results and the required water quality, treatment may include clarification, filtration, disinfection, and additional treatment stages. System capacity and configuration are matched to site requirements, with provision for expansion where needed.",
     features: [
@@ -48,7 +48,7 @@ export const services: Service[] = [
     shortTitle: "Sewage Treatment",
     summary: "Sewage treatment systems for domestic and institutional wastewater.",
     description:
-      "Sewage treatment systems are designed around the wastewater characteristics, available site space, and applicable discharge or reuse requirements. Biological treatment can reduce organic matter and suspended solids, with additional treatment stages included where the intended use requires them.",
+      "Sewage treatment systems are selected based on wastewater quality, available site space, and applicable discharge or reuse requirements. Biological treatment reduces organic matter and suspended solids; additional treatment can be included when required for the intended use.",
     features: [
       "Treatment selected based on wastewater characteristics",
       "Biological treatment to reduce organic matter and suspended solids",
@@ -99,7 +99,7 @@ export const services: Service[] = [
     shortTitle: "Water Analysis",
     summary: "Water and wastewater testing to support treatment planning and system reviews.",
     description:
-      "Water and wastewater analysis identifies relevant quality parameters before a treatment process is selected or a system is sized. Test results inform process selection, system capacity, and operating expectations. Analysis can also help assess treatment systems already in service.",
+      "Water and wastewater analysis identifies the quality parameters needed for treatment planning. Test results help determine suitable treatment processes, system capacity, and operating requirements. Analysis can also support the assessment of systems already in service.",
     features: [
       "Raw-water quality testing",
       "Wastewater and effluent analysis",
