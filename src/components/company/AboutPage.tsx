@@ -125,6 +125,13 @@ export function AboutPage() {
                     {company.contact.phone}
                   </a>
                   <a
+                    href={company.contact.additionalPhoneHref}
+                    className="mb-2 inline-flex min-h-6 items-center gap-2.5 text-navy-700 transition-colors hover:text-aqua-700"
+                  >
+                    <PhoneIcon className="h-4 w-4 text-aqua-600" />
+                    {company.contact.additionalPhone}
+                  </a>
+                  <a
                     href={company.contact.emailHref}
                     className="inline-flex min-h-6 items-center gap-2.5 break-all text-navy-700 transition-colors hover:text-aqua-700"
                   >
