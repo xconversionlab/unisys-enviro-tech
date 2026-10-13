@@ -86,6 +86,12 @@ export function Footer() {
                     {company.contact.phone}
                   </a>
                   <a
+                    href={company.contact.additionalPhoneHref}
+                    className="inline-flex min-h-6 items-center transition-colors hover:text-aqua-300"
+                  >
+                    {company.contact.additionalPhone}
+                  </a>
+                  <a
                     href={company.contact.telephoneHref}
                     className="inline-flex min-h-6 items-center transition-colors hover:text-aqua-300"
                   >
