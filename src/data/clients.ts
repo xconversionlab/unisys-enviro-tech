@@ -5,7 +5,7 @@ export type ClientEntry = {
 };
 
 export const clients: ClientEntry[] = [
-  { id: "01", name: "IDAC Builders", location: "Chennai" },
+  { id: "01", name: "DAC Builders", location: "Chennai" },
   { id: "02", name: "Isha Home's Builders", location: "Chennai" },
   { id: "03", name: "Saptagiri Builders", location: "Delhi" },
   { id: "04", name: "TVS Promotors", location: "Chennai" },
