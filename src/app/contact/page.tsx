@@ -56,22 +56,26 @@ export default function ContactPage() {
                     </span>
                     <div>
                       <h2 className={labelClass}>Phone</h2>
-                      <p className="mt-1.5">
+                      <div className="mt-1.5 flex flex-col items-start gap-1.5">
                         <a
                           href={contact.phoneHref}
                           className="inline-flex min-h-6 items-center font-semibold transition-colors hover:text-aqua-300"
                         >
                           {contact.phone}
                         </a>
-                      </p>
-                      <p className="mt-1 text-sm">
+                        <a
+                          href={contact.additionalPhoneHref}
+                          className="inline-flex min-h-6 items-center font-semibold transition-colors hover:text-aqua-300"
+                        >
+                          {contact.additionalPhone}
+                        </a>
                         <a
                           href={contact.telephoneHref}
-                          className="inline-flex min-h-6 items-center text-navy-300 transition-colors hover:text-aqua-300"
+                          className="inline-flex min-h-6 items-center text-sm text-navy-300 transition-colors hover:text-aqua-300"
                         >
                           {contact.telephone}
                         </a>
-                      </p>
+                      </div>
                     </div>
                   </div>
                   <div className={rowClass}>
