@@ -33,7 +33,7 @@ export function AboutPage() {
                 {company.description}
               </p>
               <p className="mt-5 leading-relaxed text-navy-600">
-                We begin with water-quality analysis, then select the treatment process and system capacity based on the intended use. This helps align each system with the site's requirements.
+                We begin with water-quality analysis, then select the treatment process and system capacity based on the intended use. This helps align each system with the project's requirements.
               </p>
               <p className="mt-5 leading-relaxed text-navy-600">
                 We work with industrial, commercial and institutional projects, from new treatment systems to the assessment of plants already in service.
