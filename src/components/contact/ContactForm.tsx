@@ -74,7 +74,7 @@ export function ContactForm() {
         <span aria-hidden="true" className="mx-auto mb-6 block h-px w-12 bg-aqua-600" />
         <p className="font-display text-2xl text-navy-950">Your message is ready in your email app</p>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-navy-600">
-          Send the message from there to reach us. If nothing opened, write to{" "}
+          Your email application should open with the prepared message. If it does not, email{" "}
           <a className="link-inline" href={company.contact.emailHref}>
             {company.contact.email}
           </a>{" "}
@@ -141,7 +141,7 @@ export function ContactForm() {
         </div>
       </fieldset>
       <fieldset className="grid gap-5 sm:grid-cols-2">
-        <legend className="sr-only">Contact preference</legend>
+        <legend className="sr-only">Additional contact details</legend>
         <div>
           <label htmlFor="email" className={labelClass}>
             Email
@@ -170,7 +170,7 @@ export function ContactForm() {
             <option value="Water Treatment System">Water Treatment System</option>
             <option value="Sewage Treatment System">Sewage Treatment System</option>
             <option value="Reverse Osmosis System">Reverse Osmosis System</option>
-            <option value="Water & Wastewater Analysis">Water, Waste Water Analysis</option>
+            <option value="Water & Wastewater Analysis">Water &amp; Wastewater Analysis</option>
             <option value="Other / General">Other / General</option>
           </select>
         </div>
