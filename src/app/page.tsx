@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 };
 
 const solutionPoints = [
-  "Source water characterised before any design",
-  "Process train selected for the quality target",
-  "Stages and sizing matched to the duty",
+  "Test source water before selecting treatment",
+  "Select treatment stages for the required water quality",
+  "Size the system for site conditions and demand",
 ];
 
 const equipment = [
@@ -66,14 +66,14 @@ export default function HomePage() {
             <Reveal delay={120} className="lg:col-span-6 lg:pl-4">
               <SectionHeading
                 eyebrow="About Us"
-                title="A Chennai company built around water"
+                title="A company built around water"
                 description={company.description}
                 align="left"
               />
               <p className="mt-5 leading-relaxed text-navy-600">
-                Systems are selected from the water itself — its source, its composition and
-                the quality the application needs — so treatment is proportionate to the duty
-                rather than assumed.
+                Treatment begins by assessing the water source, its quality and the intended use.
+                These factors guide the treatment stages and system capacity required for each
+                application.
               </p>
               <div className="mt-8">
                 <Button href="/about/company" variant="outline" size="md" arrow>
@@ -102,9 +102,9 @@ export default function HomePage() {
             </Reveal>
             <Reveal delay={120} className="order-1 lg:order-2 lg:col-span-6 lg:pl-4">
               <SectionHeading
-                eyebrow="Approach"
-                title="Treatment planned from the water up"
-                description="Analysis comes first. Process selection, sizing and the stages within a system follow from what the water contains and what it has to become."
+                eyebrow="Treatment approach"
+                title="Treatment based on water quality"
+                description="We assess the water first, then select the treatment process, equipment and system capacity to meet the application requirements."
                 align="left"
               />
               <ul className="mt-8 divide-y divide-navy-100 border-y border-navy-100">
@@ -140,8 +140,8 @@ export default function HomePage() {
               <SectionHeading
                 light
                 eyebrow="Industries"
-                title="Where the services are applied"
-                description="Industrial, commercial, institutional, residential and hospitality projects, each with its own water source, discharge standard and site constraints."
+                title="Industries we serve"
+                description="Water and wastewater requirements vary by site. We consider the water source, required quality, discharge requirements and available space when selecting suitable systems."
                 align="left"
               />
             </Reveal>
@@ -177,8 +177,8 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               eyebrow="Equipment"
-              title="Systems and equipment"
-              description="Aeration, blower and diffuser equipment from wastewater treatment installations."
+              title="Treatment equipment"
+              description="Examples of aeration grids and blower equipment used in treatment plants."
               align="left"
               className="mb-12 md:mb-14"
             />
@@ -216,14 +216,14 @@ export default function HomePage() {
             <Reveal>
               <SectionHeading
                 eyebrow="Clients"
-                title="Client relationships"
-                description="Builders and developers we have worked with on water and wastewater systems, in Chennai and Delhi."
+                title="Our clients"
+                description="Builders and developers in Chennai and Delhi who have worked with us on water and wastewater systems."
                 align="left"
               />
             </Reveal>
             <Reveal delay={100}>
               <Button href="/clients" variant="outline" size="md" arrow>
-                All clients
+                View all clients
               </Button>
             </Reveal>
           </div>
