@@ -33,15 +33,10 @@ export function AboutPage() {
                 {company.description}
               </p>
               <p className="mt-5 leading-relaxed text-navy-600">
-                Each service rests on the same discipline: understand the water first,
-                then select and size the treatment that fits it. That keeps systems
-                proportionate to the duty they carry — no more equipment than the water
-                calls for, and no less than the application needs.
+                We begin with water-quality analysis, then select the treatment process and system capacity based on the intended use. This helps align each system with the site's requirements.
               </p>
               <p className="mt-5 leading-relaxed text-navy-600">
-                The company works with industrial, commercial and institutional projects,
-                from a single treatment system to the analysis and review of plant already
-                in service.
+                We work with industrial, commercial and institutional projects, from new treatment systems to the assessment of plants already in service.
               </p>
             </Reveal>
 
@@ -82,7 +77,7 @@ export function AboutPage() {
             <SectionHeading
               eyebrow="Approach"
               title="How the work is done"
-              description="A short, repeatable sequence that keeps treatment decisions tied to the water itself."
+              description="Our process links water-quality analysis to treatment selection, system sizing and operating support."
               align="left"
               className="mb-12 md:mb-14"
             />
@@ -110,7 +105,7 @@ export function AboutPage() {
           <Reveal>
             <SectionHeading
               eyebrow="Contact"
-              title="Who to speak with"
+              title="Contact information"
               align="left"
               className="mb-8"
             />
