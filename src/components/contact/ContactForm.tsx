@@ -72,7 +72,7 @@ export function ContactForm() {
     return (
       <div className="py-10 text-center" role="status">
         <span aria-hidden="true" className="mx-auto mb-6 block h-px w-12 bg-aqua-600" />
-        <p className="font-display text-2xl text-navy-950">Your email app should now be open</p>
+        <p className="font-display text-2xl text-navy-950">Your message is ready in your email app</p>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-navy-600">
           Send the message from there to reach us. If nothing opened, write to{" "}
           <a className="link-inline" href={company.contact.emailHref}>
@@ -163,14 +163,14 @@ export function ContactForm() {
         </div>
         <div>
           <label htmlFor="service" className={labelClass}>
-            Service interest
+            Service required
           </label>
           <select id="service" name="service" className={inputClass} defaultValue="">
             <option value="">Select…</option>
             <option value="Water Treatment System">Water Treatment System</option>
             <option value="Sewage Treatment System">Sewage Treatment System</option>
             <option value="Reverse Osmosis System">Reverse Osmosis System</option>
-            <option value="Water, Waste Water Analysis">Water, Waste Water Analysis</option>
+            <option value="Water & Wastewater Analysis">Water, Waste Water Analysis</option>
             <option value="Other / General">Other / General</option>
           </select>
         </div>
