@@ -12,8 +12,8 @@ export function ServiceGrid() {
           <Reveal>
             <SectionHeading
               eyebrow="Services"
-              title="Four services, one focus"
-              description="Water treatment, sewage treatment, reverse osmosis and analysis — planned together so each system suits the water it handles."
+              title="Our services"
+              description="Water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis for a range of project requirements."
               align="left"
             />
           </Reveal>
