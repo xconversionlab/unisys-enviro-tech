@@ -9,36 +9,36 @@ export const industries: IndustryCategory[] = [
     id: "industrial",
     title: "Industrial & Process Facilities",
     description:
-      "Process water, utility water and effluent duties are assessed against the source water available and the quality each stage of the process requires.",
+      "We assess source-water quality and process requirements to identify suitable treatment for industrial water, utilities, and wastewater.",
   },
   {
     id: "commercial",
     title: "Commercial Buildings",
     description:
-      "Buildings are served with treatment matched to their water demand, wastewater volumes and the space the services can be given.",
+      "Treatment systems are planned around water demand, wastewater volumes, available space, and access for maintenance.",
   },
   {
     id: "institutional",
     title: "Institutional Facilities",
     description:
-      "Campuses, hostels and institutional premises call for water supply and sewage treatment sized to the population they serve.",
+      "Campuses, hostels, and institutional premises need water supply and sewage systems sized for the people who use them.",
   },
   {
     id: "residential",
     title: "Residential Developments",
     description:
-      "Housing projects use sewage treatment and water treatment systems planned around occupancy, discharge standards and reuse.",
+      "For housing developments, water and sewage treatment is planned around occupancy, discharge requirements, and opportunities for reuse.",
   },
   {
     id: "hospitality",
     title: "Hotels & Hospitality",
     description:
-      "Hotels and hospitality premises rely on consistent water quality for guests and on sewage treatment that suits the site.",
+      "Hotels need reliable water quality for daily operations and wastewater treatment suited to the building and site.",
   },
   {
     id: "analysis",
     title: "Analysis & System Review",
     description:
-      "Water and wastewater analysis supports the planning of new systems and the review of those already in service.",
+      "Water and wastewater testing helps plan new systems and assess treatment plants already in operation.",
   },
 ];
