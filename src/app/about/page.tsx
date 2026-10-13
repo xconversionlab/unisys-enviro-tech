@@ -20,12 +20,12 @@ const sections = [
   {
     title: "About Company",
     description:
-      "The company, its four service areas and the approach that connects them.",
+      "Company profile, core services, and how treatment systems are selected.",
     href: "/about/company",
   },
   {
     title: "Certificates",
-    description: "Company certificates and documentation, available on request.",
+    description: "Company certificates and supporting documents are available on request.",
     href: "/about/certificates",
   },
 ];
@@ -37,7 +37,7 @@ export default function AboutUsPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "About Us" }]}
         eyebrow="About Us"
         title={company.shortName}
-        description="A Chennai water resource technology company working across water treatment, sewage treatment, reverse osmosis and water and wastewater analysis."
+        description="Water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis for industrial, commercial, and institutional projects."
       />
 
       <section className="section-padding bg-white">
@@ -45,8 +45,7 @@ export default function AboutUsPage() {
           <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
             <Reveal className="lg:col-span-6">
               <p className="font-display text-[1.5rem] font-normal leading-[1.35] tracking-[-0.01em] text-navy-800 md:text-[1.75rem]">
-                Four services, one discipline: understand the water first, then select and
-                size the treatment that fits it.
+                Our four service areas begin with water-quality assessment and selection of treatment to meet the required outcome.
               </p>
             </Reveal>
             <Reveal delay={120} className="lg:col-span-6">
@@ -73,7 +72,7 @@ export default function AboutUsPage() {
                   </h2>
                   <p className="mt-3 flex-1 leading-relaxed text-navy-600">{section.description}</p>
                   <span className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-aqua-700">
-                    Open section
+                    View details
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </span>
                 </Link>
