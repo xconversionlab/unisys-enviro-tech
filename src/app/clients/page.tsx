@@ -9,7 +9,7 @@ import { clients } from "@/data/clients";
 export const metadata: Metadata = {
   title: "Our Clients",
   description:
-    "Builders and developers in Chennai and Delhi listed among UNISYS ENVIRO TECH PVT. LTD. clients.",
+    "Client list for UNISYS ENVIRO TECH PVT. LTD., including builders and developers in Chennai and Delhi.",
   alternates: { canonical: "/clients" },
 };
 
