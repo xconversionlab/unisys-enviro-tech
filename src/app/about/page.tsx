@@ -12,7 +12,7 @@ import { siteImages } from "@/data/site-images";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "About UNISYS ENVIRO TECH PVT. LTD., a Chennai water resource technology company, and the company's profile and certificates.",
+    "Company profile, services, and certificate information for UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu.",
   alternates: { canonical: "/about" },
 };
 
@@ -45,7 +45,7 @@ export default function AboutUsPage() {
           <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-16">
             <Reveal className="lg:col-span-6">
               <p className="font-display text-[1.5rem] font-normal leading-[1.35] tracking-[-0.01em] text-navy-800 md:text-[1.75rem]">
-                Our four service areas begin with water-quality assessment and selection of treatment to meet the required outcome.
+                We assess water quality first, then select treatment to suit the intended use.
               </p>
             </Reveal>
             <Reveal delay={120} className="lg:col-span-6">
