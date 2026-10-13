@@ -18,16 +18,14 @@ export default function IndustriesPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Industries" }]}
         eyebrow="Industries"
         title="Industries"
-        description="The sectors where our water treatment, sewage treatment, reverse osmosis and analysis services are applied."
+        description="Industries and facilities that require water treatment, sewage treatment, reverse osmosis, or water and wastewater analysis."
       />
 
       <section className="section-padding bg-white">
         <div className="container-site">
           <Reveal>
             <p className="mb-12 max-w-3xl text-lg leading-relaxed text-navy-700">
-              Water and wastewater requirements differ by setting. Treatment is planned
-              around what each site draws, what it discharges and the space it can give the
-              services.
+              Water and wastewater requirements vary by site. Treatment planning considers source-water quality, discharge requirements, expected demand, and the space available for equipment.
             </p>
           </Reveal>
           <div className="grid gap-px overflow-hidden rounded-sm border border-navy-100 bg-navy-100 sm:grid-cols-2 lg:grid-cols-3">
