@@ -3,11 +3,11 @@ export const company = {
   shortName: "UNISYS ENVIRO TECH",
   tagline: "Water Resource Technology",
   description:
-    "UNISYS ENVIRO TECH PVT. LTD. is a Chennai-based water resource technology company. Its work covers four services: water treatment systems, sewage treatment systems, reverse osmosis systems, and water and wastewater analysis.",
+    "UNISYS ENVIRO TECH PVT. LTD. provides water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis for industrial, commercial, and institutional projects.",
   summary:
-    "Water treatment, sewage treatment, reverse osmosis and analytical services for industrial, commercial and institutional projects, based in Chennai.",
+    "Water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis for industrial, commercial, and institutional projects.",
   practice:
-    "Water resource technology for industrial, commercial and institutional projects, from Chennai, across water treatment, sewage treatment, reverse osmosis and analysis.",
+    "Core services include water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis.",
   contact: {
     person: "M. CHANDRA PARI",
     designation: "Director",
