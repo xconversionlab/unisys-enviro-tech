@@ -4,7 +4,7 @@ import { AboutPage } from "@/components/company/AboutPage";
 export const metadata: Metadata = {
   title: "About Company",
   description:
-    "About UNISYS ENVIRO TECH PVT. LTD. and its water resource technology focus in Chennai, Tamil Nadu.",
+    "Company profile and water treatment, sewage treatment, reverse osmosis, and water analysis services from UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu.",
   alternates: { canonical: "/about/company" },
 };
 
