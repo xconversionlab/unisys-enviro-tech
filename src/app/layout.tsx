@@ -62,7 +62,7 @@ const organizationJsonLd = {
   "@type": "Organization",
   name: company.name,
   url: siteUrl,
-  telephone: "+919884313191",
+  telephone: ["+919884313191", "+919884313199", "+914429535483"],
   email: company.contact.email,
   address: {
     "@type": "PostalAddress",
