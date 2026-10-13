@@ -36,19 +36,17 @@ export function Hero() {
             className="font-display rise text-[2.25rem] font-normal leading-[1.06] tracking-[-0.02em] sm:text-[3rem] lg:text-[3.75rem]"
             style={delay(200)}
           >
-            Water and wastewater treatment, engineered to the source.
+            Water and wastewater treatment systems for your project.
           </h1>
           <p
             className="rise mt-6 max-w-xl leading-relaxed text-navy-200 sm:text-lg"
             style={delay(320)}
           >
-            UNISYS ENVIRO TECH designs water treatment, sewage treatment and
-            reverse osmosis systems, supported by water and wastewater analysis from first
-            assessment through operation.
+            UNISYS ENVIRO TECH provides water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis. Services are selected according to water quality, intended use, and site requirements.
           </p>
           <div className="rise mt-9 flex flex-wrap gap-3" style={delay(440)}>
             <Button href="/contact" variant="secondary" size="lg" arrow>
-              Start a conversation
+              Discuss your requirements
             </Button>
             <Button href="/services" variant="outlineLight" size="lg">
               View services
