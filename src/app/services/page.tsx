@@ -10,7 +10,7 @@ import { services } from "@/data/services";
 export const metadata: Metadata = {
   title: "Products & Services",
   description:
-    "Water treatment systems, sewage treatment systems, reverse osmosis systems and water and wastewater analysis from UNISYS ENVIRO TECH, Chennai.",
+    "Water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis services from UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu.",
   alternates: { canonical: "/services" },
 };
 
@@ -21,7 +21,7 @@ export default function ServicesPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Products & Services" }]}
         eyebrow="Products & Services"
         title="Services"
-        description="Four services covering water treatment, sewage treatment, reverse osmosis and water and wastewater analysis."
+        description="Water treatment, sewage treatment, reverse osmosis, and water and wastewater analysis."
       />
 
       <section className="section-padding bg-white">
@@ -79,14 +79,11 @@ export default function ServicesPage() {
               Selecting the right service
             </h2>
             <p className="mt-5 leading-relaxed text-navy-600">
-              Most projects begin with analysis. From there, water treatment, sewage
-              treatment and reverse osmosis systems are planned around the water each has
-              to handle. If the requirement is unclear, a short conversation is usually the
-              quickest way to scope it.
+              Treatment selection starts with the water source, its quality, and the intended use. These factors help determine the treatment stages and system capacity. Contact us if you need help identifying the right service.
             </p>
             <div className="mt-8">
               <Button href="/contact" variant="outline" size="md" arrow>
-                Discuss a requirement
+                Discuss your requirements
               </Button>
             </div>
           </div>
