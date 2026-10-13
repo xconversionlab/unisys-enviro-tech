@@ -8,7 +8,7 @@ import { ContactForm } from "@/components/contact/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu. Phone: 98843 13191 or 044 - 295 35483.",
+    "Contact UNISYS ENVIRO TECH PVT. LTD. in Chennai, Tamil Nadu. Phone: +91 98843 13191, +91 98843 13199, or +91 44 2953 5483.",
   alternates: { canonical: "/contact" },
 };
 
