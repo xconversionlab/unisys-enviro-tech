@@ -99,7 +99,7 @@ export function Header() {
           </span>
           <span className="min-w-0 leading-tight">
             <span className="block truncate text-[15px] font-bold tracking-[-0.01em] text-navy-950 sm:text-base">
-              UNISYS ENVIRO TECH
+              UNISYS ENVIRO TECH PVT. LTD.
             </span>
             <span className="mt-0.5 block text-[10px] uppercase tracking-[0.16em] text-navy-500">
               Water Resource Technology
