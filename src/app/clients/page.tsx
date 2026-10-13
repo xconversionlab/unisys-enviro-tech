@@ -72,13 +72,12 @@ export default function ClientsPage() {
                 <div aria-hidden="true" className="water-lines absolute inset-0 opacity-70" />
                 <div className="relative grid gap-8 lg:grid-cols-[1.3fr_auto] lg:items-center">
                   <div>
-                    <p className="eyebrow text-aqua-300">Start a conversation</p>
+                    <p className="eyebrow text-aqua-300">Contact us</p>
                     <h2 className="font-display mt-4 text-[1.625rem] font-normal tracking-[-0.015em] md:text-[2rem]">
                       Discuss your project requirements
                     </h2>
                     <p className="mt-4 max-w-2xl text-sm leading-relaxed text-navy-300 md:text-base">
-                      Speak with us about water treatment, sewage treatment, reverse osmosis
-                      or water and wastewater analysis for your project.
+                      Contact us about water treatment, sewage treatment, reverse osmosis, or water and wastewater analysis for your project.
                     </p>
                   </div>
                   <div className="flex flex-wrap gap-3">
