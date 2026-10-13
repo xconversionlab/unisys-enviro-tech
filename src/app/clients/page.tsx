@@ -7,9 +7,9 @@ import { company } from "@/data/company";
 import { clients } from "@/data/clients";
 
 export const metadata: Metadata = {
-  title: "Clients",
+  title: "Our Clients",
   description:
-    "Builders and developers in Chennai and Delhi who have worked with UNISYS ENVIRO TECH PVT. LTD.",
+    "Builders and developers in Chennai and Delhi listed among UNISYS ENVIRO TECH PVT. LTD. clients.",
   alternates: { canonical: "/clients" },
 };
 
@@ -19,8 +19,8 @@ export default function ClientsPage() {
       <PageHeader
         crumbs={[{ label: "Home", href: "/" }, { label: "Clients" }]}
         eyebrow="Clients"
-        title="Client relationships"
-        description="Builders and developers we have worked with on water and wastewater systems."
+        title="Our clients"
+        description="Builders and developers who have worked with us on water and wastewater systems."
       />
 
       <section className="section-padding bg-white">
@@ -28,12 +28,10 @@ export default function ClientsPage() {
           <Reveal>
             <div className="mb-12 grid gap-6 border-b border-navy-100 pb-10 md:grid-cols-[1.4fr_1fr] md:items-end">
               <p className="font-display max-w-2xl text-[1.5rem] font-normal leading-[1.35] tracking-[-0.01em] text-navy-800 md:text-[1.75rem]">
-                A working record of the builders and developers we have served across
-                Chennai and Delhi.
+                Our client list includes builders and developers in Chennai and Delhi.
               </p>
               <p className="text-sm leading-relaxed text-navy-600 md:text-base">
-                Water treatment and sewage treatment for residential, commercial and
-                institutional projects.
+                Water treatment and sewage treatment for residential, commercial, and institutional projects.
               </p>
             </div>
           </Reveal>
@@ -76,7 +74,7 @@ export default function ClientsPage() {
                   <div>
                     <p className="eyebrow text-aqua-300">Start a conversation</p>
                     <h2 className="font-display mt-4 text-[1.625rem] font-normal tracking-[-0.015em] md:text-[2rem]">
-                      Discuss your water resource requirement
+                      Discuss your project requirements
                     </h2>
                     <p className="mt-4 max-w-2xl text-sm leading-relaxed text-navy-300 md:text-base">
                       Speak with us about water treatment, sewage treatment, reverse osmosis
