@@ -7,7 +7,7 @@ import { socialImage } from "@/data/site-images";
 import { displayFont, sansFont } from "@/lib/fonts";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.unisysenviro.in";
 
 const siteDescription =
   "Water treatment, sewage treatment, reverse osmosis and water and wastewater analysis services from UNISYS ENVIRO TECH PVT. LTD., Chennai.";
