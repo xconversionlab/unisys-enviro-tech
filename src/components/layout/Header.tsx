@@ -157,6 +157,9 @@ export function Header() {
                 <a href={company.contact.phoneHref} className="flex min-h-11 items-center hover:text-navy-950">
                   {company.contact.phone}
                 </a>
+                <a href={company.contact.additionalPhoneHref} className="flex min-h-11 items-center hover:text-navy-950">
+                  {company.contact.additionalPhone}
+                </a>
                 <a href={company.contact.telephoneHref} className="flex min-h-11 items-center hover:text-navy-950">
                   {company.contact.telephone}
                 </a>
