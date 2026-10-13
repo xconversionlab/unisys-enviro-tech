@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllServiceSlugs } from "@/data/services";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.unisysenviro.in";
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
   const staticPaths = [
     "/",
     "/about",
@@ -13,13 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/clients",
     "/contact",
   ];
-  const lastModified = new Date();
 
   return [
-    ...staticPaths.map((path) => ({ url: `${siteUrl}${path}`, lastModified })),
+    ...staticPaths.map((path) => ({ url: `${siteUrl}${path}` })),
     ...getAllServiceSlugs().map((slug) => ({
       url: `${siteUrl}/services/${slug}`,
-      lastModified,
     })),
   ];
 }
