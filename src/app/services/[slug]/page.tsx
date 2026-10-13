@@ -76,7 +76,7 @@ export default async function ServiceDetailPage({ params }: Props) {
 
               <Reveal className="mt-14">
                 <h2 className="text-xs font-semibold uppercase tracking-[0.16em] text-aqua-700">
-                  Key aspects
+                  System features
                 </h2>
                 <ul className="mt-5 grid gap-3 sm:grid-cols-2">
                   {service.features.map((feature) => (
@@ -119,7 +119,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                   <div className="relative">
                     <p className="eyebrow text-aqua-300">{service.shortTitle}</p>
                     <h2 className="font-display mt-3 text-[1.375rem] font-normal leading-snug">
-                      Discuss this service
+                      Ask about this service
                     </h2>
                     <p className="mt-3 text-sm leading-relaxed text-navy-300">
                       {company.contact.person}, {company.contact.designation}
